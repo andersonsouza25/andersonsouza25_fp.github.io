@@ -1,0 +1,49 @@
+.img--brand{
+    height: 40;
+    width: 220px;
+}
+
+.img--brand img{
+    
+    object-fit: cover;
+}
+
+.header--container{
+    height: 80px; 
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 100px;
+    
+    /* alinha na vertical */
+    align-items: center;
+    justify-items: center;
+    color: white;
+
+}
+
+.header--nav--container{
+    padding: 10px 20px;
+    display: flex;
+    gap: 30px;
+    border-radius:5px;
+    background-color:var(--c2);
+}
+
+
+
+.header--nav--container li{
+    border-radius: 5px;
+    padding: 10px 30px;
+
+    transition: 0.3s;
+    
+}
+
+
+
+.header--nav--container li:hover{
+    border-radius: 5px;
+ background-color: var(--c1);   
+ border: transparent;
+}
+

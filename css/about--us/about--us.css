@@ -1,0 +1,44 @@
+.about--container{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2.5px;
+    margin: 2.5px 0;
+    justify-items: center;
+    text-align: center;
+}
+
+.about--text--container span{
+    
+    font-size: 1.87rem;
+    color:var(--c1);
+}
+/* aqui so coloquei um width para poder deixar o texto quebrado */
+.about--text--container{
+    width:56rem;
+    
+}
+
+
+.about--card--list--container{
+
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:2.5rem;
+}
+.about--item{
+    padding: 1.87rem;
+    background-color: #DEEDE0;
+    border-radius: 1.87rem;
+    
+}
+
+
+.about--item img{
+    
+    margin-bottom: 1.25rem;
+    margin: 1rem auto;
+}
+
+.about--item span{
+    font-size: 1.25rem;  
+}

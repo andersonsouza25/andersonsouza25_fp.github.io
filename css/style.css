@@ -1,0 +1,11 @@
+@import url("reset_components.css");
+@import url("colors.css");
+@import url("fonts.css");
+@import url("global--components.css");
+
+
+@import url("header--nav.css");
+@import url("../css/introducao/introducao.css");
+@import url("../css/about--us/about--us.css");
+@import url("../css/footer/footer.css");
+@import url("../css/comment/comment.css");

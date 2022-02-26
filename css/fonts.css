@@ -1,0 +1,39 @@
+.font--g1--thin{
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    
+    
+}
+
+.font--g1--light{
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    
+    
+}
+.font--g1--regular{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    
+    
+}
+.font--g1--medium{
+    font-family: "Roboto",sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    
+    text-transform: uppercase; 
+}
+.font--g1--bold{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+}
+
+.font--title{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 4rem;
+    
+}
+
+
